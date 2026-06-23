@@ -67,7 +67,7 @@ function Nav() {
             </a>
           ))}
           <a
-            href="https://wa.me/573000000000"
+            href="https://wa.me/16105688137"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-copper text-copper text-sm tracking-wide px-5 py-2 hover:bg-copper hover:text-espresso transition-all duration-300"
@@ -101,7 +101,7 @@ function Nav() {
             </a>
           ))}
           <a
-            href="https://wa.me/573000000000"
+            href="https://wa.me/16105688137"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-copper text-copper text-sm tracking-wide px-5 py-2.5 text-center hover:bg-copper hover:text-espresso transition-all duration-300"
@@ -288,21 +288,33 @@ function Historia() {
             <div className="space-y-6 text-sand/70 text-[15px] leading-relaxed">
               <p>
                 Somos una pareja de emprendedores bogotanos y nuestra historia comenzó con algo muy sencillo:
-                el amor que sentimos por nuestro compañero de cuatro patas, Bruno.
+                el amor que sentimos por nuestro compañero de cuatro patas, Bruno. Como muchas familias que
+                consideran a sus mascotas parte fundamental de su hogar, disfrutábamos compartir nuestro
+                tiempo libre con él, salir a pasear, conocer nuevos lugares y vivir experiencias juntos.
               </p>
               <p>
-                Como muchas familias que consideran a sus mascotas parte fundamental del hogar,
-                disfrutábamos compartir nuestro tiempo libre con él. Sin embargo, al visitar
-                restaurantes y cafeterías, no siempre era posible ingresar con Bruno.
+                Sin embargo, en varias ocasiones nos encontramos con una situación que se repetía
+                constantemente. Cuando visitábamos restaurantes, cafeterías o espacios de entretenimiento,
+                no siempre era posible ingresar con Bruno. Muchas veces debíamos dejarlo en casa o
+                permanecer fuera de los establecimientos, limitando la posibilidad de compartir
+                momentos especiales en familia.
               </p>
               <p>
-                Esa experiencia nos llevó a reflexionar sobre la importancia que tienen las mascotas
-                en la vida de las personas. Entendimos que nuestros amigos peludos no son solo
-                animales de compañía — son miembros de la familia.
+                Estas experiencias nos llevaron a reflexionar sobre la importancia que tienen las mascotas
+                en la vida de las personas. Entendimos que nuestros amigos peludos no son solo animales de
+                compañía — son miembros de la familia que también merecen espacios donde puedan disfrutar,
+                socializar y sentirse bienvenidos.
+              </p>
+              <p>
+                Fue entonces cuando nació la idea de crear un restaurante diferente: un lugar pensado
+                especialmente para las mascotas, donde ellas fueran las protagonistas y sus familias
+                pudieran acompañarlas y compartir momentos inolvidables. Soñamos con un espacio seguro,
+                cómodo y divertido, con un menú diseñado para ellos y un ambiente acogedor para todos.
               </p>
               <p className="text-sand/90 font-medium">
-                Así nació Patitas Social Club: un restaurante diferente, donde las mascotas son
-                las protagonistas y sus familias pueden compartir momentos inolvidables.
+                Así nació Patitas Social Club, inspirado por Bruno y por todas aquellas familias que desean
+                compartir más tiempo con sus mascotas. Porque creemos que los mejores momentos de la vida
+                se disfrutan en compañía de quienes más amamos — incluyendo a nuestros amigos de cuatro patas.
               </p>
             </div>
           </div>
@@ -345,16 +357,38 @@ function MisionValores() {
         <div className="grid md:grid-cols-2 gap-1 mb-1">
           <div data-reveal className="bg-sand p-12 md:p-16">
             <p className="text-copper text-xs tracking-[0.4em] uppercase mb-5">Misión</p>
-            <p className="font-display text-espresso text-xl md:text-2xl font-light leading-relaxed">
+            <p className="font-display text-espresso text-xl md:text-2xl font-light leading-relaxed mb-6">
               Brindar una experiencia gastronómica única, segura y memorable para las mascotas
-              y sus familias, con ingredientes frescos y de alta calidad.
+              y sus familias, ofreciendo bowls, helados, snacks y opciones diseñadas para el
+              bienestar de nuestros amigos peludos, con ingredientes frescos y de alta calidad.
+            </p>
+            <p className="text-caramel text-sm leading-relaxed mb-4">
+              Nuestro restaurante busca crear un espacio innovador, cómodo y acogedor donde las
+              mascotas sean las protagonistas y puedan socializar, jugar y disfrutar de un ambiente
+              especialmente diseñado para ellas, mientras sus familias comparten momentos agradables.
+            </p>
+            <p className="text-caramel text-sm leading-relaxed">
+              Trabajamos con pasión, responsabilidad y amor por los animales, promoviendo la
+              convivencia entre mascotas y familias, y buscando convertir cada visita en una
+              experiencia inolvidable.
             </p>
           </div>
           <div data-reveal data-delay="2" className="bg-espresso p-12 md:p-16">
             <p className="text-copper text-xs tracking-[0.4em] uppercase mb-5">Visión</p>
-            <p className="font-display text-cream text-xl md:text-2xl font-light leading-relaxed">
-              Ser el restaurante pet friendly líder en Colombia, reconocidos por la calidad,
-              la innovación y nuestro compromiso con el bienestar animal.
+            <p className="font-display text-cream text-xl md:text-2xl font-light leading-relaxed mb-6">
+              Ser el restaurante pet friendly líder y de mayor preferencia para las mascotas y
+              sus familias, reconocidos por ofrecer experiencias únicas de convivencia y
+              alimentación especializada.
+            </p>
+            <p className="text-sand/60 text-sm leading-relaxed mb-4">
+              Aspiramos a consolidarnos como una marca innovadora y referente en el sector,
+              destacándonos por la calidad de nuestros productos, la excelencia en el servicio
+              y nuestro compromiso con el bienestar animal.
+            </p>
+            <p className="text-sand/60 text-sm leading-relaxed">
+              Nos proyectamos como una empresa sostenible, competitiva y socialmente responsable,
+              capaz de generar valor para nuestros clientes y comunidad, promoviendo una cultura
+              de respeto, amor y cuidado hacia los animales.
             </p>
           </div>
         </div>
@@ -381,6 +415,29 @@ function MisionValores() {
             ))}
           </div>
         </div>
+        {/* Ficha académica — requisito rúbrica UTH Florida University */}
+        <div data-reveal className="mt-20 border-t border-sand pt-12">
+          <p className="text-copper text-[10px] tracking-[0.4em] uppercase mb-8">Información académica</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+            <div>
+              <p className="text-muted text-[10px] tracking-widest uppercase mb-2">Presentado por</p>
+              <p className="text-espresso font-medium leading-snug">Lizeth Daniela Poveda Alonso</p>
+            </div>
+            <div>
+              <p className="text-muted text-[10px] tracking-widest uppercase mb-2">Institución</p>
+              <p className="text-espresso">UTH Florida University</p>
+            </div>
+            <div>
+              <p className="text-muted text-[10px] tracking-widest uppercase mb-2">Curso</p>
+              <p className="text-espresso">Informática Aplicada</p>
+            </div>
+            <div>
+              <p className="text-muted text-[10px] tracking-widest uppercase mb-2">Fecha</p>
+              <p className="text-espresso">Junio 2026</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   )
@@ -389,12 +446,12 @@ function MisionValores() {
 /* ── Menú preview ─────────────────────────────────────────────── */
 function MenuPreview() {
   const categorias = [
-    { name: 'Bowls Gourmet',          desc: 'Bowl "Patitas Felices", "Colita Contenta", "Bruno Especial" y más.' },
-    { name: 'Helados Artesanales',    desc: '"Banana Woof", "Berry Love", "Tropical Paw", "Peanut Tail". Favorito de la casa.' },
-    { name: 'Pupcakes',               desc: '"Cumpleaños Feliz", "Amor de Patitas", "Mini Bruno".' },
-    { name: 'Caldos y Sopitas',       desc: '"Abrazo de Mamá", "Colitas Felices", "Vida de Patitas".' },
-    { name: 'Galletitas Artesanales', desc: '"Huellitas Crujientes", "Premios de la Casa", "Bocaditos de Amor".' },
-    { name: 'Menú de Celebración',    desc: 'Torta "Patitas de Fiesta" + Box Cumpleañero con foto Polaroid.' },
+    { name: 'Bowls Gourmet',          desc: '"Patitas Felices" — pollo, arroz integral y vegetales · "Colita Contenta" — res, zanahoria y calabaza · "Fiesta Perruna" — pollo, carne, mango y arándanos · "Bruno Especial" — salmón, camote y vegetales, rico en Omega 3.' },
+    { name: 'Helados Artesanales',    desc: '"Banana Woof" — banano y yogur · "Berry Love" — fresa, arándanos y yogur · "Tropical Paw" — mango, coco y yogur · "Peanut Tail" — mantequilla de maní y banano. Favorito de la casa.' },
+    { name: 'Pupcakes',               desc: '"Cumpleaños Feliz" — zanahoria con frosting de yogur · "Amor de Patitas" — manzana y avena · "Mini Bruno" — banano con mantequilla de maní. Para celebrar momentos especiales.' },
+    { name: 'Caldos y Sopitas',       desc: '"Abrazo de Mamá" — caldo de pollo con zanahoria y perejil · "Colitas Felices" — caldo de res con verduras naturales · "Vida de Patitas" — caldo de hueso rico en colágeno y minerales.' },
+    { name: 'Galletitas Artesanales', desc: '"Huellitas Crujientes" — avena y zanahoria · "Premios de la Casa" — pollo deshidratado · "Bocaditos de Amor" — manzana y canela. 100% naturales y artesanales.' },
+    { name: 'Menú de Celebración',    desc: 'Torta "Patitas de Fiesta" — pastel personalizado para cumpleaños · Box Cumpleañero incluye pupcake, helado, galletitas, pañoleta y foto Polaroid. Sundae "Happy Tail" · Parfait "Huellitas Dulces" · Waffles "Patitas".' },
   ]
 
   return (
@@ -434,8 +491,8 @@ function MenuPreview() {
           <p className="font-display text-cream font-light text-2xl md:text-3xl mb-4">
             Porque ellos también merecen consentirse
           </p>
-          <p className="text-sand/50 text-sm tracking-wide">
-            Limonada "Cherry Bliss" · Jugos naturales · Gaseosas · Brownie "Dulce Compañía" · Copa "Momentos Felices"
+          <p className="text-sand/50 text-sm leading-relaxed max-w-2xl mx-auto">
+            Limonada "Cherry Bliss" (especialidad de la casa) · Limonada Clásica · Jugos Naturales de Mango, Fresa y Maracuyá · Gaseosas · Brownie "Dulce Compañía" · Copa "Momentos Felices" · Pastel de Pollo Casero · Bocaditos "Social Club"
           </p>
         </div>
       </div>
@@ -610,7 +667,7 @@ function Contacto() {
     const form = e.currentTarget
     const data = new FormData(form)
     try {
-      const res = await fetch('https://formspree.io/f/XXXXXXXX', {
+      const res = await fetch('https://formspree.io/f/mojovobb', {
         method: 'POST',
         body: data,
         headers: { Accept: 'application/json' },
@@ -645,6 +702,13 @@ function Contacto() {
               <p className="text-caramel/70">Bogotá, Colombia</p>
             </div>
             <div>
+              <p className="text-copper text-xs tracking-[0.3em] uppercase mb-2">Teléfono / WhatsApp</p>
+              <a href="https://wa.me/16105688137" target="_blank" rel="noopener noreferrer"
+                className="text-caramel hover:text-copper transition-colors">
+                +1 (610) 568-8137
+              </a>
+            </div>
+            <div>
               <p className="text-copper text-xs tracking-[0.3em] uppercase mb-2">Correo</p>
               <a href="mailto:patitassocialclub@gmail.com"
                 className="text-caramel hover:text-copper transition-colors">
@@ -652,14 +716,21 @@ function Contacto() {
               </a>
             </div>
             <div>
-              <p className="text-copper text-xs tracking-[0.3em] uppercase mb-3">WhatsApp</p>
+              <p className="text-copper text-xs tracking-[0.3em] uppercase mb-2">Redes sociales</p>
+              <a href="https://instagram.com/patitassocialclub" target="_blank" rel="noopener noreferrer"
+                className="text-caramel hover:text-copper transition-colors">
+                @patitassocialclub
+              </a>
+            </div>
+            <div>
+              <p className="text-copper text-xs tracking-[0.3em] uppercase mb-3">Escríbenos</p>
               <a
-                href="https://wa.me/573000000000"
+                href="https://wa.me/16105688137"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block border border-copper text-copper text-xs tracking-widest uppercase px-6 py-3 hover:bg-copper hover:text-espresso transition-all duration-300"
               >
-                Escríbenos directo
+                Abrir WhatsApp
               </a>
             </div>
             <div>
@@ -768,9 +839,17 @@ function Footer() {
               Centro Comercial Bulevar Niza<br />
               Bogotá, Colombia
             </p>
-            <a href="mailto:patitassocialclub@gmail.com"
+            <a href="tel:+16105688137"
               className="block text-sand/50 text-sm mt-4 hover:text-copper transition-colors duration-300">
+              +1 (610) 568-8137
+            </a>
+            <a href="mailto:patitassocialclub@gmail.com"
+              className="block text-sand/50 text-sm mt-2 hover:text-copper transition-colors duration-300">
               patitassocialclub@gmail.com
+            </a>
+            <a href="https://instagram.com/patitassocialclub" target="_blank" rel="noopener noreferrer"
+              className="block text-sand/50 text-sm mt-2 hover:text-copper transition-colors duration-300">
+              @patitassocialclub
             </a>
           </div>
         </div>
@@ -792,7 +871,7 @@ function Footer() {
 function WhatsAppFab() {
   return (
     <a
-      href="https://wa.me/573000000000"
+      href="https://wa.me/16105688137"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-7 right-7 z-50 bg-[#25D366] text-white w-13 h-13 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 hover:shadow-[#25D366]/30 transition-all duration-300"
