@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  /* Paleta refinada */
+  --color-cream:    #F3E9DB;
+  --color-sand:     #E0CAAF;
+  --color-copper:   #B86B34;
+  --color-caramel:  #6B3A18;
+  --color-espresso: #1C1008;
+  --color-muted:    #8C6848;
+  --color-gold:     #C4963A;
+
+  /* Tipografía */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-ui:      'DM Sans', system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: #F3E9DB;
+  color: #1C1008;
+  font-family: 'DM Sans', system-ui, sans-serif;
+}
+
+/* ── Reveal on scroll ─────────────────────────────────────────── */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(32px);
+  transition:
+    opacity  0.85s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+[data-reveal].in-view {
+  opacity: 1;
+  transform: none;
+}
+[data-reveal][data-delay="1"] { transition-delay: 0.10s; }
+[data-reveal][data-delay="2"] { transition-delay: 0.20s; }
+[data-reveal][data-delay="3"] { transition-delay: 0.30s; }
+[data-reveal][data-delay="4"] { transition-delay: 0.42s; }
+[data-reveal][data-delay="5"] { transition-delay: 0.54s; }
+[data-reveal][data-delay="6"] { transition-delay: 0.66s; }
+
+/* Variante: fade only (sin desplazamiento) */
+[data-reveal="fade"] {
+  transform: none;
+}
+
+/* Variante: slide from left */
+[data-reveal="left"] {
+  transform: translateX(-32px);
+}
+[data-reveal="left"].in-view {
+  transform: none;
+}
+
+/* Variante: slide from right */
+[data-reveal="right"] {
+  transform: translateX(32px);
+}
+[data-reveal="right"].in-view {
+  transform: none;
+}
+
+/* ── Ken Burns hero ───────────────────────────────────────────── */
+@keyframes kenBurns {
+  from { transform: scale(1.0); }
+  to   { transform: scale(1.07); }
+}
+.hero-zoom {
+  animation: kenBurns 12s ease-out forwards;
+}
+
+/* ── Lightbox ─────────────────────────────────────────────────── */
+@keyframes fadeInOverlay {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── Línea decorativa de sección ─────────────────────────────── */
+.section-rule {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.section-rule::before,
+.section-rule::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.25;
+}
