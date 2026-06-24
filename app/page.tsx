@@ -443,9 +443,9 @@ function MisionValores() {
             <div className="bg-cream p-7">
               <div className="w-5 h-px bg-copper mb-4" />
               <p className="text-muted text-[10px] tracking-[0.3em] uppercase mb-3">Tecnología usada</p>
-              <p className="font-display text-espresso text-base font-medium leading-relaxed">
+              <p className="font-display text-espresso text-lg font-medium leading-snug">
                 Next.js 16 + TypeScript<br />
-                <span className="text-muted font-normal text-sm">Tailwind CSS 4 · Vercel Deploy</span>
+                Tailwind CSS 4 · Vercel Deploy
               </p>
             </div>
           </div>
@@ -680,7 +680,7 @@ function Contacto() {
     const form = e.currentTarget
     const data = new FormData(form)
     try {
-      const res = await fetch('https://formspree.io/f/mojovobb', {
+      const res = await fetch('https://formspree.io/f/mpqgqloe', {
         method: 'POST',
         body: data,
         headers: { Accept: 'application/json' },
