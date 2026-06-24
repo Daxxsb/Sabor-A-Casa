@@ -418,22 +418,35 @@ function MisionValores() {
         {/* Ficha académica — requisito rúbrica UTH Florida University */}
         <div data-reveal className="mt-20 border-t border-sand pt-12">
           <p className="text-copper text-[10px] tracking-[0.4em] uppercase mb-8">Información académica</p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
-            <div>
-              <p className="text-muted text-[10px] tracking-widest uppercase mb-2">Presentado por</p>
-              <p className="text-espresso font-medium leading-snug">Lizeth Daniela Poveda Alonso</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-px bg-sand">
+            <div className="bg-cream p-7">
+              <div className="w-5 h-px bg-copper mb-4" />
+              <p className="text-muted text-[10px] tracking-[0.3em] uppercase mb-3">Presentado por</p>
+              <p className="font-display text-espresso text-lg font-medium leading-snug">
+                Lizeth Daniela<br />Poveda Alonso
+              </p>
             </div>
-            <div>
-              <p className="text-muted text-[10px] tracking-widest uppercase mb-2">Institución</p>
-              <p className="text-espresso">UTH Florida University</p>
+            <div className="bg-cream p-7">
+              <div className="w-5 h-px bg-copper mb-4" />
+              <p className="text-muted text-[10px] tracking-[0.3em] uppercase mb-3">Institución</p>
+              <p className="font-display text-espresso text-lg font-medium leading-snug">
+                UTH Florida<br />University
+              </p>
             </div>
-            <div>
-              <p className="text-muted text-[10px] tracking-widest uppercase mb-2">Curso</p>
-              <p className="text-espresso">Informática Aplicada</p>
+            <div className="bg-cream p-7">
+              <div className="w-5 h-px bg-copper mb-4" />
+              <p className="text-muted text-[10px] tracking-[0.3em] uppercase mb-3">Curso y entrega</p>
+              <p className="font-display text-espresso text-lg font-medium leading-snug">
+                Informática<br />Aplicada
+              </p>
             </div>
-            <div>
-              <p className="text-muted text-[10px] tracking-widest uppercase mb-2">Fecha</p>
-              <p className="text-espresso">Junio 2026</p>
+            <div className="bg-cream p-7">
+              <div className="w-5 h-px bg-copper mb-4" />
+              <p className="text-muted text-[10px] tracking-[0.3em] uppercase mb-3">Tecnología usada</p>
+              <p className="font-display text-espresso text-base font-medium leading-relaxed">
+                Next.js 16 + TypeScript<br />
+                <span className="text-muted font-normal text-sm">Tailwind CSS 4 · Vercel Deploy</span>
+              </p>
             </div>
           </div>
         </div>
